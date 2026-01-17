@@ -105,6 +105,13 @@ export const PROJECTS: Project[] = [
 
 export const EXPERIENCES: ExperienceItem[] = [
   {
+    role: "UMN Festival 2024 Crew",
+    company: "UMN Festival",
+    period: "mar – nov, 2024",
+    description:
+      "acara tahunan terbesar UMN menghadirkan 5 rangkaian kegiatan menakjubkan, yaitu UNVEILLING, UCARE, E-ULYMPIC, ULYMPIC, dan UNIFY.",
+  },
+  {
     role: "Global Game Jam Crew",
     company: "Global Game Jam",
     period: "Jan 24 – 26, 2025",
