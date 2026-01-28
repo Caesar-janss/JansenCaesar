@@ -24,6 +24,9 @@ import luas from "./assets/lll.png";
 import umn from "./assets/umn.png";
 import seadex from "./assets/seadex.png";
 import aircare from "./assets/aircare.png";
+import mycdc from "./assets/mycdc.png";
+import aegiscall from "./assets/aegiscall.png";
+import jmb from "./assets/jmb.png";
 
 export const SOCIAL_LINKS = {
   whatsapp: "https://wa.me/6281386035980",
@@ -68,7 +71,7 @@ export const PROJECTS: Project[] = [
       "A platform that encourages community-driven environmental clean-up actions.",
     tags: ["React", "Tailwind", "TypeScript", "Firebase"],
     imageUrl: goloop,
-    repoUrl: "https://github.com/MATYUS05/GoLoop",
+    liveUrl: "https://go-loop.vercel.app/",
   },
   {
     title: "PT. Luas Langgeng Lestari Website",
@@ -96,10 +99,35 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "Air Care",
-    description: "Application to monitor air quality in real-time.",
+    description: 
+      "Application to monitor air quality in real-time.",
     tags: ["Kotlin", "Jetpack Compose", "Firebase"],
     imageUrl: aircare,
     repoUrl: "https://github.com/SebastianObert/AirCare",
+  },
+   {
+    title: "MYCDC 7K Kasih Karunia",
+    description: 
+      "Church Website for MYCDC 7K Kasih Karunia.",
+    tags: ["Alpine.js", "Tailwind CSS", "Laravel"],
+    imageUrl: mycdc,
+    liveUrl: "https://mycdc7k.com/ministry",
+  },
+   {
+    title: "Aegis Call",
+    description: 
+      "Aegis Call is a user-centered app designed for rapid, panic-free emergency response.",
+    tags: ["Figma", "UI"],
+    imageUrl: aegiscall,
+    liveUrl: "https://www.figma.com/proto/qLd5xU8g1rZm0nehm53wqV/UAS-HCI?node-id=605-4407&t=ZrwxJHFBdqvFLnBZ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=52%3A363",
+  },
+  {
+    title: "JMB Travel",
+    description: 
+      "A travel website offering various popular destination and many more in jakarta.",
+    tags: ["Javascript", "HTMl", "CSS"],
+    imageUrl: jmb,
+    liveUrl: "https://jmb-travel.vercel.app/",
   },
 ];
 
