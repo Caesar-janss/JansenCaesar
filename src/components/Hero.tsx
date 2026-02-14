@@ -40,11 +40,12 @@ const Hero: React.FC = () => {
 
           <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
             <a
-              href={PERSONAL_INFO.cvUrl}
-              className="flex items-center gap-2 bg-sky-500 hover:bg-sky-400 text-white px-8 py-3.5 rounded-2xl font-bold transition-all"
+                href={PERSONAL_INFO.cvUrl}
+                download
+                className="flex items-center gap-2 bg-sky-500 hover:bg-sky-400 text-white px-8 py-3.5 rounded-2xl font-bold transition-all"
             >
               <Download size={20} />
-              Download CV
+              CV Jansen
             </a>
           </div>
         </div>

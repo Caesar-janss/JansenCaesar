@@ -40,7 +40,7 @@ export const PERSONAL_INFO = {
   description:
     "Driven by curiosity and a strong interest in technology, I focus on understanding systems, learning from experimentation, and steadily improving my skill.",
   profileImage: profile,
-  cvUrl: "/cv/Jansen_Caesar_CV.pdf",
+  cvUrl: "/CV Jansen Caesar.pdf",
   ...SOCIAL_LINKS,
 };
 
