@@ -81,30 +81,6 @@ export const PROJECTS: Project[] = [
     imageUrl: luas,
     liveUrl: "https://luasbiomass.com/",
   },
-  {
-    title: "Seadex",
-    description:
-      "Web application for managing e-commerce operations and company profile.",
-    tags: ["Laravel", "PHP", "Bootstrap", "MySQL"],
-    imageUrl: seadex,
-    repoUrl: "https://github.com/hhoow0093/UAS-WEBPRO-IF330",
-  },
-  {
-    title: "UMN Event",
-    description:
-      "Campus event management web application built for academic purposes.",
-    tags: ["PHP", "MySQL"],
-    imageUrl: umn,
-    repoUrl: "https://github.com/hhoow0093/UTS-LECTURE-WEBPRO-IF330",
-  },
-  {
-    title: "Air Care",
-    description: 
-      "Application to monitor air quality in real-time.",
-    tags: ["Kotlin", "Jetpack Compose", "Firebase"],
-    imageUrl: aircare,
-    repoUrl: "https://github.com/SebastianObert/AirCare",
-  },
    {
     title: "MYCDC 7K Kasih Karunia",
     description: 
@@ -128,6 +104,30 @@ export const PROJECTS: Project[] = [
     tags: ["Javascript", "HTMl", "CSS"],
     imageUrl: jmb,
     liveUrl: "https://jmb-travel.vercel.app/",
+  },
+  {
+    title: "Seadex",
+    description:
+      "Web application for managing e-commerce operations and company profile.",
+    tags: ["Laravel", "PHP", "Bootstrap", "MySQL"],
+    imageUrl: seadex,
+    repoUrl: "https://github.com/hhoow0093/UAS-WEBPRO-IF330",
+  },
+  {
+    title: "UMN Event",
+    description:
+      "Campus event management web application built for academic purposes.",
+    tags: ["PHP", "MySQL"],
+    imageUrl: umn,
+    repoUrl: "https://github.com/hhoow0093/UTS-LECTURE-WEBPRO-IF330",
+  },
+  {
+    title: "Air Care",
+    description: 
+      "Application to monitor air quality in real-time.",
+    tags: ["Kotlin", "Jetpack Compose", "Firebase"],
+    imageUrl: aircare,
+    repoUrl: "https://github.com/SebastianObert/AirCare",
   },
 ];
 

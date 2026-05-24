@@ -1,3 +1,4 @@
+/* Cell 2: Opsi tambah zoom */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,6 +10,7 @@ html, body {
   min-height: 100%;
   background: #020c1b;
   overflow-x: hidden;
+  zoom: 1.05;
 }
 
 html {
