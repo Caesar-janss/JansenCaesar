@@ -27,6 +27,9 @@ import aircare from "./assets/aircare.png";
 import mycdc from "./assets/mycdc.png";
 import aegiscall from "./assets/aegiscall.png";
 import jmb from "./assets/jmb.png";
+import nexedu from "./assets/nexedu.png";
+import sigapid from "./assets/sigapid.png";
+import miepermana from "./assets/miepermana.png";
 
 export const SOCIAL_LINKS = {
   whatsapp: "https://wa.me/6281386035980",
@@ -106,6 +109,22 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://jmb-travel.vercel.app/",
   },
   {
+    title: "Nex Edu",
+    description: 
+      "web-based e-learning application designed for students, providing an interactive and engaging platform for online education.",
+      tags: ["Figma", "UI"],
+      imageUrl: nexedu,
+      liveUrl: "https://www.figma.com/design/5bRRpJBqA9AbMvxR7Pli67/Nexedu---E-Learning-App-UI?node-id=0-1&t=AzYxtEuvsSixYKdF-1",
+    },
+    {
+      title: "SigapId",
+      description: 
+        "React Native-based emergency mobile application that connects citizens, command center operators, and field officers in one integrated system in real time.",
+      tags: ["Application", "React Native", "Supabase", "TypeScript"],
+      imageUrl: sigapid,
+      liveUrl: "https://expo.dev/artifacts/eas/uyYmAaS1vQCRTgoq1miiVm.apk",
+    },
+  {
     title: "Seadex",
     description:
       "Web application for managing e-commerce operations and company profile.",
@@ -128,6 +147,14 @@ export const PROJECTS: Project[] = [
     tags: ["Kotlin", "Jetpack Compose", "Firebase"],
     imageUrl: aircare,
     repoUrl: "https://github.com/SebastianObert/AirCare",
+  },
+  {
+    title: "POS Mie Permana",
+    description: 
+      "Application to monitor POS transactions and inventory for Mie Permana, a local food stall.",
+    tags: ["C#", "SMSS"],
+    imageUrl: miepermana,
+    repoUrl: "https://github.com/jo9996/gerobak-bakmie-permana-update/tree/v11",
   },
 ];
 
